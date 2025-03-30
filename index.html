@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<!-- The lang attribute specifies the language of the document. -->
+<html lang="en-US">
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT2YagHtr4qOrUsSDJ6iu92HKhEWYW6pEe4w&s">
+    <!-- Define the character set used -->
+    <meta charset="UTF-8">
+    <!-- Define keywords for search engines -->
+    <meta name="keywords" content="HTML, CSS">
+    <!-- Define a description of your web page -->
+    <meta name="description" content="Free Web tutorials">
+     <!-- Define the author of a page -->
+    <meta name="author" content="Khoi Luong">
+     <!-- Refresh documenet every 15 seconds -->
+    <meta http-equiv="refresh" content="15">
+    <!-- Define the viewport to make your website look good on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body style="background-color: paleturquoise">
+    <h1 style="color:red" id="h1">My First Heading</h1>
+    <h2>My First Heading</h2>
+    <h3>My First Heading</h3>
+    <h4>My First Heading</h4>
+    <h5>My First Heading</h5>
+    <h6>My First Heading</h6>
+    <p title="My first paragraph" style="font-family:verdana;font-size: 300%;text-align:center;">My first paragraph</p>
+    <hr>
+    <!-- target =_self - Default. Opens the document in the same window/tab as it was clicked-->
+    <a href="https://www.w3schools.com">This is a link</a>
+
+    <!-- target = _blank - Opens the document in a new window or tab -->
+    <a href="https://www.w3schools.com/" target="_blank">This is a link</a>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT2YagHtr4qOrUsSDJ6iu92HKhEWYW6pEe4w&s"
+        alt="W3Schools.com" width="104" height="142">
+    <!-- <pre> (Preformatted text) Preserve both spaces and line breaks -->
+    <pre>
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+    </pre>
+    <b>This text is bold</b>
+    <br>
+    <i>This text is italic</i>
+    <br>
+    <del>This text is strike-through</del>
+    <br>
+    <ins>This text is underline</ins>
+    <br>
+    <sub>This text is subscript</sub>
+    <br>
+    <sup>This text is superscript</sup>
+    <br>
+
+    <!-- served for screen readers and useful for SEO -->
+    <em>This text is emphasized</em> <!-- Italic -->
+    <br>
+    <strong>This text is strong</strong> <!-- Bold -->
+    <br>
+    <q>This text is a quote</q>
+    <br>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization,
+        WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and
+        deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+    </blockquote>
+    <!-- <abbr>: Abbreviation give useful information to browsers, translation systems and search-engines-->
+    <abbr title="This text is an abbreviation">TTIAA</abbr>
+
+    <!-- <address>: Contact information for the author/owner of a document or an article -->
+    <!-- The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.-->
+    <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <!-- <cite>: The title of a work -->
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    <!-- <bdo>: Bi-Directional Override -->
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+    <!-- tr: table row, th: table header, td: table data -->
+    <!-- By default, the text in <th> elements are bold and centered -->
+    <table>
+        <caption>Company information</caption>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <!-- dl: description list, dt: description term (title), dd: description definition -->
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+    <!-- block-level elements
+        <address>
+        <article>  
+        <aside>
+        <blockquote>
+        <canvas>
+        <dd>
+        <div>
+        <dl>
+        <dt>
+        <fieldset>
+        <figcaption>
+        <figure>
+        <footer>
+        <form>
+        <h1>-<h6>
+        <header>
+        <hr>
+        <li>
+        <main>
+        <nav>
+        <noscript>
+        <ol>
+        <p>
+        <pre>
+        <section>
+        <table>
+        <tfoot>
+        <ul>
+        <video>
+-->
+
+<!-- inline elements (Note: An inline element cannot contain a block-level element!)
+        <a>
+        <abbr>
+        <acronym>
+        <b>
+        <bdo>
+        <big>
+        <br>
+        <button>
+        <cite>
+        <code>
+        <dfn>
+        <em>
+        <i>
+        <img>
+        <input>
+        <kbd>
+        <label>
+        <map>
+        <object>
+        <output>
+        <q>
+        <samp>
+        <script>
+        <select>
+        <small>
+        <span>
+        <strong>
+        <sub>
+        <sup>
+        <textarea>
+        <time>
+        <tt>
+        <var>
+-->
+    <!-- <div>: is usually used as a block container for other elements -->
+    <!-- <span>: is usually used as an inline container for mark-ups-->
+
+    <!-- sematic elements
+        <header> - Defines a header for a document or a section
+        <nav> - Defines a set of navigation links
+        <section> - Defines a section in a document
+        <article> - Defines independent, self-contained content
+        <aside> - Defines content aside from the content (like a sidebar)
+        <footer> - Defines a footer for a document or a section
+        <details> - Defines additional details that the user can open and close on demand
+        <summary> - Defines a heading for the <details> element
+    -->
+    <iframe src="https://gameprogrammingpatterns.com/contents.html" title="W3Schools Free Online Web Tutorials" ></iframe>
+    <pre>
+        <code>
+            <var>x</var> = 5;
+            <var>y</var> = 6;
+            <var>z</var> = <var>x</var> + <var>y</var>;
+        </code>
+    </pre>
+    
+    <a href="#h1">Go to the heading 1</a>
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+    <p>&#169; &#174; &#8482; &#8594;</p>
+    <form>
+        
+    </form>
+</body>
+
+</html>
